@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pamela Feltrin - Nail Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="iconUnha.png" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="brand-name">Pamela Feltrin</span>
+                <span class="brand-subtitle">Nail Designer</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#procedimentos">Serviços</a></li>
+                <li><a href="#contatos">Contato</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-label">Nail Designer Profissional</span>
+                    <h1 class="hero-title">Pamela Feltrin</h1>
+                    <p class="hero-description">Transformando unhas em obras de arte com elegância, precisão e personalidade única</p>
+                    <div class="hero-buttons">
+                        <!-- Changed button to red color -->
+                        <a href="https://wa.me/5542990892979?text=Olá%2C%20gostaria%20de%20agendar%20um%20horário!" target="_blank" class="btn btn-red">Agendar Horário</a>
+                        <a href="#portfolio" class="btn btn-secondary">Ver Portfólio</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-frame">
+                        <img src="PamelaNails02.jpg" alt="Nail Design by Pamela Feltrin">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Role para descobrir</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <section class="about" id="sobre">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-wrapper">
+                    <div class="about-image-frame">
+                        <!-- Using PamelaNails.jpg as image name -->
+                        <img src="PamelaNails.jpg" alt="Pamela Feltrin" onerror="this.src='/placeholder.svg?height=500&width=400'">
+                        <div class="image-decoration"></div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-label">Conheça a Profissional</span>
+                    <h2 class="section-title">Quem Sou Eu</h2>
+                    <div class="title-decoration"></div>
+                    <p class="about-intro">Prazer, linda!</p>
+                    <!-- Moved 1.5 years experience to text content -->
+                    <p>Meu nome é <strong>Pamela Feltrin</strong>, tenho 15 anos e atuo na área de unhas há <strong>1 ano e meio</strong> com muita dedicação e paixão.</p>
+                    <p>Sou formada por uma profissional de excelência, e desde então venho me aperfeiçoando constantemente para entregar sempre unhas impecáveis, modernas e cheias de personalidade.</p>
+                    <div class="about-highlight">
+                        <!-- Added vivid red quotation marks -->
+                        <span class="quote-mark quote-mark-open">"</span>
+                        <p>Cada atendimento é feito com muito carinho, dedicação e atenção aos detalhes, porque acredito que suas unhas merecem o melhor!</p>
+                        <span class="quote-mark quote-mark-close">"</span>
+                    </div>
+                    <!-- Removed stats section (clientes atendidas, satisfação, experiência) -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <div class="title-decoration"></div>
+                <h2 class="section-title">Meus Trabalhos</h2>
+                
+                <p class="section-description">Cada unha conta uma história única de elegância e personalidade. Clique para agendar!</p>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Using unha1.jpg through unha6.jpg as image names -->
+                <div class="portfolio-item" data-name="French Manicure Elegante" data-price="90">
+                    <img src="unha1.jpg" alt="French Manicure Elegante" onerror="this.src='/placeholder.svg?height=400&width=400'">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Alongamento</span>
+                        <span class="portfolio-cta">Clique para agendar</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-name="Esmaltação Rosa Nude" data-price="50">
+                    <img src="unha2.jpg" alt="Esmaltação em Gel Rosa" onerror="this.src='/placeholder.svg?height=400&width=400'">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Esmaltação em Gel</span>
+                        <span class="portfolio-cta">Clique para agendar</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-name="Unhas Nude com Pedrarias" data-price="90">
+                    <img src="unha3.jpg" alt="Unhas Nude com Pedrarias" onerror="this.src='/placeholder.svg?height=400&width=400'">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Decoração</span>
+                        <span class="portfolio-cta">Clique para agendar</span>
+                    </div>
+                </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="procedimentos">
+        <div class="container">
+            <div class="section-header">
+                <div class="title-decoration"></div>
+                <span class="section-label">O Que Ofereço</span>
+                <h2 class="section-title">Procedimentos</h2>
+                <p class="section-description">Serviços profissionais com produtos de alta qualidade</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-service="Alongamento em Molde" data-price="90">
+                    <div class="featured-badge">Mais Popular</div>
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Alongamento em Molde F1</h3>
+                    <p class="service-description">Alongamento de unhas em molde com acabamento impecável e decorações personalizadas.</p>
+                    <div class="service-details">
+                        <div class="price-item">
+                            <span class="price-label">Aplicação Completa</span>
+                            <span class="price-value">R$ 90</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="price-label">Manutenção</span>
+                            <span class="price-value">R$ 80</span>
+                        </div>
+                        <p class="service-note">* Decorações inclusas no valor</p>
+                        <p class="service-note">* R$ 5 por unha quebrada na manutenção</p>
+                    </div>
+                    <button class="service-btn">Agendar Agora</button>
+                </div>
+
+                <div class="service-card featured" data-service="Esmaltação em Gel" data-price="50">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M20 7H4a2 2 0 00-2 2v6a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2zM12 15a3 3 0 100-6 3 3 0 000 6z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Esmaltação em Gel</h3>
+                    <p class="service-description">Esmaltação em gel de longa duração com acabamento profissional e brilho intenso.</p>
+                    <div class="service-details">
+                        <div class="price-item">
+                            <span class="price-label">Esmaltação Completa</span>
+                            <span class="price-value">R$ 50</span>
+                        </div>
+                        <p class="service-note">* Duração de até 3 semanas</p>
+                        <p class="service-note">* Cores variadas disponíveis</p>
+                    </div>
+                    <button class="service-btn">Agendar Agora</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="payment">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Facilidade para Você</span>
+                <h2 class="section-title">Formas de Pagamento</h2>
+                <div class="title-decoration"></div>
+            </div>
+            <div class="payment-grid">
+                <div class="payment-card">
+                    <div class="payment-icon pix">
+                        <svg viewBox="0 0 512 512" fill="currentColor">
+                            <path d="M242.4 292.5C247.8 287.1 257.1 287.1 262.5 292.5L339.5 369.5C353.7 383.7 372.6 391.5 392.6 391.5H407.7L310.6 488.6C280.3 518.1 231.1 518.1 200.8 488.6L103.3 391.5H112.6C132.6 391.5 151.5 383.7 165.7 369.5L242.4 292.5zM262.5 218.9C257.1 224.3 247.8 224.3 242.4 218.9L165.7 142.1C151.5 127.9 132.6 120.1 112.6 120.1H103.3L200.7 23.37C231.1-5.125 280.3-5.125 310.6 23.37L407.7 120.1H392.6C372.6 120.1 353.7 127.9 339.5 142.1L262.5 218.9zM112.6 142.1C126.4 142.1 139.1 148.3 149.7 158.1L226.4 234.8C233.6 241.1 243 245.6 252.5 245.6C261.9 245.6 271.3 241.1 278.5 234.8L355.5 157.8C365.3 148.1 378.8 142.1 392.6 142.1H430.3L488.6 200.8C518.9 231.1 518.9 280.3 488.6 310.6L430.3 368.9H392.6C378.8 368.9 365.3 362.9 355.5 353.1L278.5 276.1C264.6 262.2 240.3 262.2 226.4 276.1L149.7 352.8C139.1 362.6 126.4 368.6 112.6 368.6H80.78L22.45 310.6C-7.865 280.3-7.865 231.1 22.45 200.8L80.78 142.1H112.6z"/>
+                        </svg>
+                    </div>
+                    <h3 class="payment-title">PIX</h3>
+                    <p class="payment-description">Pagamento instantâneo e seguro</p>
+                </div>
+                <div class="payment-card">
+                    <div class="payment-icon money">
+                        <svg viewBox="0 0 640 512" fill="currentColor">
+                            <path d="M535 41c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l64 64c4.5 4.5 7 10.6 7 17s-2.5 12.5 7 17l-64 64c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l23-23L384 112c-13.3 0-24-10.7-24-24s10.7-24 24-24l174.1 0L535 41zM105 377l-23 23L256 400c13.3 0 24 10.7 24 24s-10.7 24-24 24L81.9 448l23 23c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L7 441c-4.5-4.5-7-10.6-7-17s2.5-12.5 7-17l64-64c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM96 64H337.9c-3.7 7.2-5.9 15.3-5.9 24c0 28.7 23.3 52 52 52l117.4 0c-4 17 .6 35.5 13.8 48.8c20.3 20.3 53.2 20.3 73.5 0L608 169.5V384c0 35.3-28.7 64-64 64H302.1c3.7-7.2 5.9-15.3 5.9-24c0-28.7-23.3-52-52-52l-117.4 0c4-17-.6-35.5-13.8-48.8c-20.3-20.3-53.2-20.3-73.5 0L32 342.5V128c0-35.3 28.7-64 64-64zm64 64H96v64c35.3 0 64-28.7 64-64zM544 320c-35.3 0-64 28.7-64 64h64V320zM320 352a96 96 0 1 0 0-192 96 96 0 1 0 0 192z"/>
+                        </svg>
+                    </div>
+                    <h3 class="payment-title">Dinheiro</h3>
+                    <p class="payment-description">Pagamento em espécie no local</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contatos">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <span class="section-label">Entre em Contato</span>
+                    <h2 class="section-title">Vamos Agendar?</h2>
+                    <div class="title-decoration"></div>
+                    <p class="contact-description">Estou pronta para transformar suas unhas em verdadeiras obras de arte. Entre em contato e agende seu horário!</p>
+                    
+                    <!-- Improved contact methods layout -->
+                    <div class="contact-methods">
+                        <a href="https://wa.me/5542990892979?text=Olá%2C%20gostaria%20de%20agendar%20um%20horário!" target="_blank" rel="noopener noreferrer" class="contact-link whatsapp-link">
+                            <div class="contact-link-icon whatsapp">
+                                <svg viewBox="0 0 448 512" fill="currentColor">
+                                    <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-link-content">
+                                <span class="contact-link-label">Agende pelo WhatsApp</span>
+                                <span class="contact-link-value">(42) 99089-2979</span>
+                                <span class="contact-link-cta">Clique para conversar</span>
+                            </div>
+                        </a>
+
+                        <a href="https://instagram.com/nails_pamelaaa" target="_blank" rel="noopener noreferrer" class="contact-link instagram-link">
+                            <div class="contact-link-icon instagram">
+                                <svg viewBox="0 0 448 512" fill="currentColor">
+                                    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-link-content">
+                                <span class="contact-link-label">Siga no Instagram</span>
+                                <span class="contact-link-value">@nails_pamelaa</span>
+                                <span class="contact-link-cta">Veja meus trabalhos</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Pamela Feltrin</h3>
+                    <p>Nail Designer Profissional</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Início</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#portfolio">Portfólio</a>
+                    <a href="#procedimentos">Serviços</a>
+                    <a href="#contatos">Contato</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/nails_pamelaaa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <svg viewBox="0 0 448 512" fill="currentColor">
+                            <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/5542990892979" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                        <svg viewBox="0 0 448 512" fill="currentColor">
+                            <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pamela Feltrin. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
