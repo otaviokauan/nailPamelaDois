@@ -8,7 +8,6 @@
 }
 
 :root {
-  /* Refined ultra-professional color palette */
   --color-primary: #c9a0b8;
   --color-primary-dark: #a8859a;
   --color-pastel-pink: #ffd6dd;
@@ -27,12 +26,8 @@
   --color-text-primary: #1a1a1a;
   --color-text-secondary: #4a4a4a;
   --color-text-light: #757575;
-
-  /* Professional typography with elegant fonts */
   --font-heading: "Playfair Display", serif;
   --font-body: "Inter", sans-serif;
-
-  /* Generous spacing scale for better visual rhythm */
   --spacing-xs: 0.5rem;
   --spacing-sm: 1rem;
   --spacing-md: 1.5rem;
@@ -40,19 +35,14 @@
   --spacing-xl: 4rem;
   --spacing-2xl: 6rem;
   --spacing-3xl: 8rem;
-
-  /* Refined border radius for modern look */
   --radius-sm: 12px;
   --radius-md: 20px;
   --radius-lg: 28px;
   --radius-xl: 36px;
-
-  /* Ultra-soft, elegant shadows */
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
   --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.06);
   --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.08);
   --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.12);
-
   --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-base: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-slow: 0.6s cubic-bezier(0.4, 0, 0.2, 1);
@@ -79,7 +69,6 @@ body {
   padding: 0 var(--spacing-lg);
 }
 
-/* Professional typography with better hierarchy */
 h1,
 h2,
 h3,
@@ -93,7 +82,6 @@ h6 {
   letter-spacing: -0.02em;
 }
 
-/* Enhanced navigation with glassmorphism */
 .navbar {
   position: fixed;
   top: 0;
@@ -153,7 +141,6 @@ h6 {
   padding: 0.5rem 0;
 }
 
-/* Vivid red underline effect on hover */
 .nav-menu a::after {
   content: "";
   position: absolute;
@@ -191,7 +178,6 @@ h6 {
   border-radius: 2px;
 }
 
-/* Enhanced section labels and titles */
 .section-label {
   display: inline-block;
   font-size: 0.8rem;
@@ -210,7 +196,6 @@ h6 {
   color: var(--color-text-primary);
 }
 
-/* Vivid red title decoration */
 .title-decoration {
   width: 100px;
   height: 5px;
@@ -232,7 +217,6 @@ h6 {
   line-height: 1.8;
 }
 
-/* Enhanced buttons with vivid red primary */
 .btn {
   display: inline-block;
   padding: 1.25rem 3rem;
@@ -270,7 +254,6 @@ h6 {
   transform: translateY(-3px);
 }
 
-/* Vivid red button with enhanced shadows */
 .btn-red {
   background: var(--color-red-vivid);
   color: var(--color-neutral-100);
@@ -283,7 +266,6 @@ h6 {
   box-shadow: 0 12px 32px rgba(230, 57, 70, 0.4);
 }
 
-/* Elegant hero section with refined layout */
 .hero {
   min-height: 100vh;
   display: flex;
@@ -406,7 +388,6 @@ h6 {
   transform: rotate(45deg);
 }
 
-/* Refined about section */
 .about {
   padding: var(--spacing-3xl) 0;
   background: var(--color-neutral-100);
@@ -467,7 +448,6 @@ h6 {
   line-height: 1.8;
 }
 
-/* Enhanced highlight box with pastel pink gradient and vivid red quotation marks */
 .about-highlight {
   position: relative;
   padding: var(--spacing-xl) var(--spacing-xl);
@@ -478,7 +458,6 @@ h6 {
   box-shadow: var(--shadow-md);
 }
 
-/* Large vivid red quotation marks */
 .quote-mark {
   font-family: var(--font-heading);
   font-size: 6rem;
@@ -510,7 +489,6 @@ h6 {
   line-height: 1.8;
 }
 
-/* Elegant portfolio section */
 .portfolio {
   padding: var(--spacing-3xl) 0;
   background: var(--color-neutral-50);
@@ -581,7 +559,6 @@ h6 {
   font-weight: 500;
 }
 
-/* Enhanced services section with pastel pink cards */
 .services {
   padding: var(--spacing-3xl) 0;
   background: var(--color-neutral-100);
@@ -595,7 +572,6 @@ h6 {
   margin: 0 auto;
 }
 
-/* Service cards with pastel pink → red gradient */
 .service-card {
   position: relative;
   padding: var(--spacing-xl);
@@ -625,7 +601,6 @@ h6 {
   transform: scale(1.03) translateY(-10px);
 }
 
-/* Vivid red featured badge */
 .featured-badge {
   position: absolute;
   top: var(--spacing-md);
@@ -641,7 +616,6 @@ h6 {
   box-shadow: 0 6px 20px rgba(230, 57, 70, 0.45);
 }
 
-/* Service icon with vivid red color */
 .service-icon {
   width: 80px;
   height: 80px;
@@ -690,7 +664,6 @@ h6 {
   box-shadow: var(--shadow-sm);
 }
 
-/* Vivid red price values */
 .price-label {
   font-weight: 600;
   color: var(--color-text-secondary);
@@ -711,7 +684,6 @@ h6 {
   font-style: italic;
 }
 
-/* Vivid red service button */
 .service-btn {
   display: block;
   text-align: center;
@@ -735,7 +707,6 @@ h6 {
   box-shadow: 0 12px 32px rgba(230, 57, 70, 0.4);
 }
 
-/* Enhanced payment section */
 .payment {
   padding: var(--spacing-3xl) 0;
   background: linear-gradient(135deg, var(--color-neutral-50) 0%, var(--color-accent) 100%);
@@ -749,7 +720,6 @@ h6 {
   margin: 0 auto;
 }
 
-/* Elegant payment cards */
 .payment-card {
   padding: var(--spacing-xl);
   background: var(--color-neutral-100);
@@ -804,7 +774,6 @@ h6 {
   line-height: 1.7;
 }
 
-/* Enhanced contact section */
 .contact {
   padding: var(--spacing-3xl) 0;
   background: var(--color-neutral-100);
@@ -833,11 +802,11 @@ h6 {
 
 .contact-methods {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: var(--spacing-lg);
+  justify-content: center;
 }
 
-/* Elegant contact links */
 .contact-link {
   display: flex;
   align-items: center;
@@ -849,10 +818,12 @@ h6 {
   transition: var(--transition-base);
   border: 4px solid transparent;
   box-shadow: var(--shadow-sm);
+  flex: 1;
+  max-width: 450px;
 }
 
 .contact-link:hover {
-  transform: translateX(10px);
+  transform: translateY(-6px);
   box-shadow: var(--shadow-lg);
 }
 
@@ -919,6 +890,7 @@ h6 {
   font-weight: 700;
   color: var(--color-text-primary);
   margin: 0.25rem 0;
+  white-space: nowrap;
 }
 
 .contact-link-cta {
@@ -928,17 +900,6 @@ h6 {
   font-style: italic;
 }
 
-.contact-image {
-  display: none;
-}
-
-.contact-image img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* Elegant footer */
 .footer {
   padding: var(--spacing-xl) 0 var(--spacing-lg);
   background: var(--color-text-primary);
@@ -1020,7 +981,6 @@ h6 {
   font-size: 0.85rem;
 }
 
-/* Smooth animations */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -1064,13 +1024,11 @@ h6 {
   }
 }
 
-/* Vivid red selection */
 ::selection {
   background: var(--color-red-vivid);
   color: var(--color-neutral-100);
 }
 
-/* Custom scrollbar with vivid red */
 ::-webkit-scrollbar {
   width: 14px;
 }
@@ -1089,96 +1047,37 @@ h6 {
   background: var(--color-red-vivid-dark);
 }
 
-/* Responsive design */
-@media (max-width: 1200px) {
-  .container {
-    padding: 0 var(--spacing-md);
-  }
-
-  .hero-title {
-    font-size: 5rem;
-  }
-
-  .section-title {
-    font-size: 3.5rem;
-  }
-
-  .hero-content {
-    gap: var(--spacing-xl);
-  }
-}
-
 @media (max-width: 1024px) {
   .section-title {
     font-size: 3rem;
   }
-
   .hero-title {
-    font-size: 4.5rem;
+    font-size: 5rem;
   }
-
-  /* Tornando hero e about em coluna única para tablets */
   .hero-content,
   .about-grid {
     grid-template-columns: 1fr;
     gap: var(--spacing-xl);
   }
-
   .hero-image {
     order: -1;
-    max-width: 500px;
-    margin: 0 auto;
   }
-
-  .hero-text {
-    text-align: center;
-  }
-
-  .hero-buttons {
-    justify-content: center;
-  }
-
-  .about-image-wrapper {
-    max-width: 500px;
-    margin: 0 auto;
-  }
-
-  /* Ajustando grid de serviços para uma coluna */
   .services-grid {
     grid-template-columns: 1fr;
-    max-width: 650px;
   }
-
-  /* Portfolio com 2 colunas em tablets */
   .portfolio-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: var(--spacing-lg);
   }
-
   .footer-content {
     grid-template-columns: 1fr;
     text-align: center;
-    gap: var(--spacing-lg);
   }
-
   .footer-social {
     justify-content: center;
-  }
-
-  .footer-links {
-    align-items: center;
-  }
-
-  /* Reduzindo espaçamentos em tablets */
-  :root {
-    --spacing-xl: 3rem;
-    --spacing-2xl: 4.5rem;
-    --spacing-3xl: 6rem;
   }
 }
 
 @media (max-width: 768px) {
-  /* Menu mobile com animação suave */
   .nav-menu {
     position: fixed;
     top: 90px;
@@ -1191,521 +1090,122 @@ h6 {
     gap: var(--spacing-md);
     transition: var(--transition-base);
     box-shadow: var(--shadow-lg);
-    overflow-y: auto;
   }
-
   .nav-menu.active {
     left: 0;
   }
-
-  .nav-menu a {
-    font-size: 1.1rem;
-    padding: var(--spacing-sm) 0;
-    text-align: center;
-  }
-
   .nav-toggle {
     display: flex;
   }
-
   .nav-toggle.active span:nth-child(1) {
     transform: rotate(45deg) translate(6px, 6px);
   }
-
   .nav-toggle.active span:nth-child(2) {
     opacity: 0;
   }
-
   .nav-toggle.active span:nth-child(3) {
     transform: rotate(-45deg) translate(8px, -8px);
   }
-
-  /* Ajustando tamanhos de fonte para mobile */
   .hero-title {
-    font-size: 3.5rem;
-    line-height: 1;
+    font-size: 4rem;
   }
-
-  .hero-description {
-    font-size: 1.1rem;
-  }
-
   .section-title {
     font-size: 2.5rem;
   }
-
-  .section-description {
-    font-size: 1rem;
-  }
-
-  /* Portfolio e payment em coluna única */
-  .portfolio-grid,
-  .payment-grid {
+  .portfolio-grid {
     grid-template-columns: 1fr;
-    gap: var(--spacing-lg);
   }
-
-  /* Removendo transformação scale do featured card em mobile */
-  .service-card.featured {
-    transform: scale(1);
-  }
-
-  .service-card.featured:hover {
-    transform: translateY(-10px);
-  }
-
-  .service-title {
-    font-size: 1.75rem;
-  }
-
-  .service-description {
-    font-size: 1rem;
-  }
-
-  .price-value {
-    font-size: 1.5rem;
-  }
-
-  /* Ajustando contact links para mobile */
-  .contact-link {
-    flex-direction: column;
-    text-align: center;
+  .payment-grid {
+    grid-template-columns: repeat(2, 1fr);
     gap: var(--spacing-md);
   }
-
-  .contact-link:hover {
-    transform: translateY(-6px);
-  }
-
-  .contact-link-value {
-    font-size: 1.3rem;
-  }
-
-  /* Reduzindo tamanho das aspas em mobile */
-  .quote-mark {
-    font-size: 4rem;
-  }
-
-  .quote-mark-open {
-    top: -15px;
-    left: 10px;
-  }
-
-  .quote-mark-close {
-    bottom: -25px;
-    right: 10px;
-  }
-
-  .about-highlight p {
-    padding: 0 var(--spacing-md);
-    font-size: 1rem;
-  }
-
-  /* Ajustando espaçamentos gerais */
-  :root {
-    --spacing-lg: 2rem;
-    --spacing-xl: 2.5rem;
-    --spacing-2xl: 3.5rem;
-    --spacing-3xl: 4.5rem;
-  }
-
-  .hero {
-    padding: calc(90px + var(--spacing-xl)) 0 var(--spacing-xl);
-  }
-
-  .about,
-  .portfolio,
-  .services,
-  .payment,
-  .contact {
-    padding: var(--spacing-2xl) 0;
-  }
-}
-
-@media (max-width: 640px) {
-  /* Ajustes adicionais para telas médias-pequenas */
-  .hero-title {
-    font-size: 3rem;
-  }
-
-  .section-title {
-    font-size: 2.25rem;
-  }
-
-  .brand-name {
-    font-size: 1.5rem;
-  }
-
-  .brand-subtitle {
-    font-size: 0.7rem;
-  }
-
-  .service-card {
+  .payment-card {
     padding: var(--spacing-lg);
   }
-
-  .featured-badge {
-    padding: 0.6rem 1.2rem;
-    font-size: 0.7rem;
-  }
-
-  .service-icon {
+  .payment-icon {
     width: 70px;
     height: 70px;
+    margin-bottom: var(--spacing-md);
   }
-
-  .service-icon svg {
+  .payment-icon svg {
     width: 35px;
     height: 35px;
   }
-
-  .payment-icon {
-    width: 85px;
-    height: 85px;
+  .payment-title {
+    font-size: 1.25rem;
   }
-
-  .payment-icon svg {
-    width: 45px;
-    height: 45px;
+  .payment-description {
+    font-size: 0.85rem;
   }
-
-  .contact-link-icon {
-    width: 75px;
-    height: 75px;
+  .service-card.featured {
+    transform: scale(1);
   }
-
-  .contact-link-icon svg {
-    width: 38px;
-    height: 38px;
+  .service-card.featured:hover {
+    transform: translateY(-10px);
+  }
+  .contact-methods {
+    flex-direction: column;
+  }
+  .contact-link {
+    max-width: 100%;
+  }
+  .quote-mark {
+    font-size: 4rem;
   }
 }
 
 @media (max-width: 480px) {
-  /* Otimizações para smartphones */
   .hero-title {
-    font-size: 2.5rem;
-    letter-spacing: -0.02em;
+    font-size: 3rem;
   }
-
-  .hero-description {
-    font-size: 1rem;
-    margin-bottom: var(--spacing-lg);
-  }
-
-  .hero-label {
-    font-size: 0.8rem;
-  }
-
   .section-title {
     font-size: 2rem;
   }
-
-  .section-label {
-    font-size: 0.75rem;
-  }
-
   .container {
     padding: 0 var(--spacing-md);
   }
-
-  /* Botões em largura total */
   .hero-buttons {
     flex-direction: column;
     width: 100%;
-    gap: var(--spacing-sm);
   }
-
   .btn {
     width: 100%;
     text-align: center;
-    padding: 1rem 2rem;
-    font-size: 0.95rem;
   }
-
   .service-card {
-    padding: var(--spacing-md);
-  }
-
-  .service-title {
-    font-size: 1.5rem;
-  }
-
-  .service-btn {
-    padding: 1rem;
-    font-size: 0.95rem;
-  }
-
-  .payment-card {
     padding: var(--spacing-lg);
   }
-
+  .payment-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-sm);
+  }
+  .payment-card {
+    padding: var(--spacing-md);
+  }
+  .payment-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: var(--spacing-sm);
+  }
+  .payment-icon svg {
+    width: 30px;
+    height: 30px;
+  }
   .payment-title {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
-
   .payment-description {
-    font-size: 0.95rem;
+    font-size: 0.75rem;
   }
-
-  /* Contact links mais compactos */
   .contact-link {
     padding: var(--spacing-lg);
     gap: var(--spacing-md);
   }
-
   .contact-link-icon {
-    width: 65px;
-    height: 65px;
+    width: 70px;
+    height: 70px;
   }
-
-  .contact-link-icon svg {
-    width: 32px;
-    height: 32px;
-  }
-
   .contact-link-value {
-    font-size: 1.15rem;
-  }
-
-  .contact-link-label {
-    font-size: 0.8rem;
-  }
-
-  .contact-link-cta {
-    font-size: 0.8rem;
-  }
-
-  /* Aspas ainda menores em telas pequenas */
-  .quote-mark {
-    font-size: 3rem;
-  }
-
-  .quote-mark-open {
-    top: -10px;
-    left: 5px;
-  }
-
-  .quote-mark-close {
-    bottom: -20px;
-    right: 5px;
-  }
-
-  .about-highlight {
-    padding: var(--spacing-lg);
-  }
-
-  .about-highlight p {
-    font-size: 0.95rem;
-    padding: 0 var(--spacing-sm);
-  }
-
-  .about-intro {
-    font-size: 1.2rem;
-  }
-
-  .about-content p {
-    font-size: 0.95rem;
-  }
-
-  /* Footer mais compacto */
-  .footer {
-    padding: var(--spacing-lg) 0 var(--spacing-md);
-  }
-
-  .footer-brand h3 {
-    font-size: 1.4rem;
-  }
-
-  .footer-brand p {
-    font-size: 0.85rem;
-  }
-
-  .footer-links a {
-    font-size: 0.9rem;
-  }
-
-  .footer-social a {
-    width: 42px;
-    height: 42px;
-  }
-
-  .footer-social svg {
-    width: 20px;
-    height: 20px;
-  }
-
-  /* Ajustando espaçamentos para mobile pequeno */
-  :root {
-    --spacing-sm: 0.875rem;
-    --spacing-md: 1.25rem;
-    --spacing-lg: 1.75rem;
-    --spacing-xl: 2rem;
-    --spacing-2xl: 3rem;
-    --spacing-3xl: 4rem;
-  }
-
-  .scroll-indicator {
-    bottom: var(--spacing-lg);
-    font-size: 0.75rem;
-  }
-
-  .scroll-arrow {
-    width: 18px;
-    height: 18px;
-  }
-
-  .image-frame {
-    border-width: 6px;
-  }
-
-  .about-image-frame {
-    border-width: 6px;
-  }
-}
-
-@media (max-width: 375px) {
-  /* Ajustes para telas muito pequenas (iPhone SE, etc) */
-  .hero-title {
-    font-size: 2.25rem;
-  }
-
-  .section-title {
-    font-size: 1.75rem;
-  }
-
-  .brand-name {
-    font-size: 1.35rem;
-  }
-
-  .brand-subtitle {
-    font-size: 0.65rem;
-  }
-
-  .navbar {
-    padding: 1rem 0;
-  }
-
-  .container {
-    padding: 0 1rem;
-  }
-
-  .service-card {
-    padding: 1rem;
-  }
-
-  .service-icon {
-    width: 60px;
-    height: 60px;
-  }
-
-  .service-icon svg {
-    width: 30px;
-    height: 30px;
-  }
-
-  .price-value {
-    font-size: 1.35rem;
-  }
-
-  .payment-icon {
-    width: 75px;
-    height: 75px;
-  }
-
-  .payment-icon svg {
-    width: 40px;
-    height: 40px;
-  }
-
-  .contact-link {
-    padding: 1rem;
-  }
-
-  .contact-link-icon {
-    width: 60px;
-    height: 60px;
-  }
-
-  .contact-link-icon svg {
-    width: 28px;
-    height: 28px;
-  }
-
-  .contact-link-value {
-    font-size: 1rem;
-    word-break: break-all;
-  }
-
-  .quote-mark {
-    font-size: 2.5rem;
-  }
-
-  .about-highlight {
-    padding: 1rem;
-  }
-
-  .about-highlight p {
-    font-size: 0.9rem;
-    padding: 0 0.5rem;
-  }
-}
-
-/* Adicionando suporte para orientação landscape em mobile */
-@media (max-height: 600px) and (orientation: landscape) {
-  .hero {
-    min-height: auto;
-    padding: calc(90px + var(--spacing-lg)) 0 var(--spacing-lg);
-  }
-
-  .hero-title {
-    font-size: 2.5rem;
-  }
-
-  .hero-description {
-    font-size: 0.95rem;
-    margin-bottom: var(--spacing-md);
-  }
-
-  .scroll-indicator {
-    display: none;
-  }
-
-  .nav-menu {
-    height: calc(100vh - 70px);
-    top: 70px;
-  }
-
-  .navbar {
-    padding: 0.75rem 0;
-  }
-}
-
-/* Melhorando acessibilidade e performance em telas grandes */
-@media (min-width: 1400px) {
-  .container {
-    max-width: 1400px;
-  }
-
-  .hero-title {
-    font-size: 6.5rem;
-  }
-
-  .section-title {
-    font-size: 4.5rem;
-  }
-}
-
-@media (min-width: 1600px) {
-  .container {
-    max-width: 1500px;
-  }
-}
-
-/* Prevenindo zoom em inputs no iOS */
-@media (max-width: 768px) {
-  input,
-  textarea,
-  select {
-    font-size: 16px !important;
+    font-size: 1.25rem;
   }
 }
