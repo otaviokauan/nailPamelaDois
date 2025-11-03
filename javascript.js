@@ -16,7 +16,7 @@ navMenu.querySelectorAll("a").forEach((link) => {
 const portfolioItems = document.querySelectorAll(".portfolio-item")
 portfolioItems.forEach((item) => {
   item.addEventListener("click", () => {
-    const whatsappUrl = "https://wa.me/5542990892979?text=Olá%2C%20gostaria%20de%20agendar%20um%20horário!"
+    const whatsappUrl = "https://wa.me/554299892979?text=Olá%2C%20gostaria%20de%20fazer%20um%20agendamento!"
     window.open(whatsappUrl, "_blank")
   })
 })
@@ -28,9 +28,9 @@ serviceButtons.forEach((button) => {
   button.addEventListener("click", () => {
     const serviceCard = button.closest(".service-card")
     const serviceTitle = serviceCard.querySelector(".service-title").textContent
-    const message = `Olá, gostaria de agendar um horário para fazer ${serviceTitle.toLowerCase()}!`
+    const message = `Olá, gostaria de fazer um agendamento para ${serviceTitle.toLowerCase()}!`
     const encodedMessage = encodeURIComponent(message)
-    const whatsappUrl = `https://wa.me/5542990892979?text=${encodedMessage}`
+    const whatsappUrl = `https://wa.me/554299892979?text=${encodedMessage}`
     window.open(whatsappUrl, "_blank")
   })
 })
@@ -41,9 +41,9 @@ contactLinks.forEach((link) => {
     if (link.classList.contains("whatsapp-link")) {
       if (selectedService) {
         e.preventDefault()
-        const message = `Olá, gostaria de agendar um horário para fazer ${selectedService.toLowerCase()}!`
+        const message = `Olá, gostaria de fazer um agendamento para ${selectedService.toLowerCase()}!`
         const encodedMessage = encodeURIComponent(message)
-        const whatsappUrl = `https://wa.me/5542990892979?text=${encodedMessage}`
+        const whatsappUrl = `https://wa.me/554299892979?text=${encodedMessage}`
         window.open(whatsappUrl, "_blank")
         selectedService = ""
       }
